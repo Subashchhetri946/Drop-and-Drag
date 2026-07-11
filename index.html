@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
@@ -12,15 +13,26 @@
 
         <div class="board">
 
-            <div class="list" id="list">
+            <!-- list1 -->
+            <div class="list" id="list1">
                 <h2>To do</h2>
                 <div class="card" draggable="true" id="card1">Wash Dishes</div>
                 <div class="card" draggable="true" id="card2">Buy groceries</div>
             </div>
 
+            <!-- list2 -->
+             <div class="list" id="list2">
+                <h2>In Progress</h2>
+                <div class="card" draggable="true" id="card3">learn to code</div>
+            </div>
+
+            <!-- list3 -->
+             <div class="list" id="list3">
+                <h2>Done</h2>
+            </div>
 
         </div>
-
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
