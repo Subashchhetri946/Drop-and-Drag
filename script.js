@@ -21,6 +21,8 @@ function dragEnd() {
     console.log("Drag ended");
 }
 
+
+
 function dragOver(e) {
     e.preventDefault();
 }
